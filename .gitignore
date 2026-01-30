@@ -1,0 +1,72 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.*
+secrets/
+*.key
+*.pem
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+*.out
+
+# =========================
+# Database
+# =========================
+*.db
+*.sqlite3
+db_data/
+postgres_data/
+mysql_data/
+
+# =========================
+# Docker
+# =========================
+.docker/
+docker-volumes/
+docker-data/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# =========================
+# CI / Coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# Terraform (if/when you add it)
+# =========================
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
